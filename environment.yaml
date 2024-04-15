@@ -1,0 +1,21 @@
+name: openai_chatbot_demo
+channels:
+  - anaconda
+  - conda-forge
+  - defaults
+dependencies:
+  - ipykernel
+  - ipython
+  - numpy
+  - pandas
+  - scipy
+  - matplotlib
+  - seaborn
+  - scikit-learn
+  - pip
+  - plotly
+  - pyprojroot
+  - python=3.9
+
+  
+

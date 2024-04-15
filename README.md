@@ -1,0 +1,70 @@
+# openAI chatbot demo
+
+- **By:** Angello Triviño Umaña
+
+- **Contact:** angello.trivinio@gmail.com
+
+ChatBot with using OpenAI API, also, using Telegram's BotFather
+
+## Licence
+
+ This project has The MIT License (MIT) Copyright (c) 2024, Angello Triviño Umaña
+
+
+
+## Directories Distribution
+```
+├── LICENCE
+├── README.md
+├── data
+│   ├── 0_external
+│   ├── 0_raw
+│   ├── 1_intermediate
+│   └── 2_processed
+├── docs
+├── environment.yaml
+├── notebooks
+│   └── 0.0-openai_chatbot_demo-introduction.ipynb
+├── reports
+├── requirements.txt
+├── scripts
+├── setup.py
+└── openai_chatbot_demo_packages
+    ├── __init__.py
+    ├── utils
+    │   ├── __init__.py
+    │   └── get_path.py
+    └── visualization
+        ├── __init__.py
+        └── visualization.py
+
+```
+
+## How to activate the enviroment
+you could review the libraries and dependencies to use in *eviroment.yalm* file
+
+- Create a new enviroment with conda:
+
+```
+conda env create -f environment.yml
+activate openai_chatbot_demo
+```
+
+- If you are using pip
+  
+create a new enviroment to this proyect (env is the enviroment's name, so could have another name) 
+
+``` 
+python3 -m venv env
+```
+
+then activate
+
+``` 
+source env/bin/activate
+```
+finally install the libraries:
+
+``` 
+pip install -r requirements.txt 
+```
