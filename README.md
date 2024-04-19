@@ -10,8 +10,6 @@ ChatBot with using OpenAI API, also, using Telegram's BotFather
 
  This project has The MIT License (MIT) Copyright (c) 2024, Angello Triviño Umaña
 
-
-
 ## Directories Distribution
 ```
 ├── LICENCE
@@ -68,3 +66,11 @@ finally install the libraries:
 ``` 
 pip install -r requirements.txt 
 ```
+
+## What is the project?
+
+### Demo chatbot with OpenAI API using Telegram's BotFather
+
+1. Create bot from https://telegram.me/BotFather
+2. Launch script: python ~/scripts/openai_chatbot_demo.py
+3. Send message on bot create from Telegram's FatherBot
