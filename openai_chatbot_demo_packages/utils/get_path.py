@@ -1,5 +1,7 @@
 import os
 
+# Define the functions
+## Get the absolute path
 def make_path(*args):
     """function to make an absolute path
 
@@ -10,6 +12,7 @@ def make_path(*args):
     new_dir= os.path.join(current_dir,os.pardir,*args)
     return new_dir
 
+## Get the items in a specified path
 def make_item_list(*args):
     """return the items in a specified path in this
 
@@ -21,7 +24,7 @@ def make_item_list(*args):
     items_list = list(filter(lambda x: os.path.isfile(x), items))
     return items_list
 
-
+## Get the directories in a specified path
 def make_directories_list(*args):
     """return the directories in a specified path
 
