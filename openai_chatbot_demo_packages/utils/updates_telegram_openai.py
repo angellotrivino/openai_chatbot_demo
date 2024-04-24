@@ -29,7 +29,7 @@ def get_openai_response(prompt):
     response = openai.chat.completions.create(
         model = 'gpt-3.5-turbo',
         messages = [
-        {"role": "system", "content" :"Eres un asistente que da información de Anuncios Publicitarios."},
+        {"role": "system", "content" :"Eres un asistente que da información de Anuncios Publicitarios. Respuestas 150 letras"},
         {"role": "user", "content" : str(prompt)}
         ],
         max_tokens = 150,

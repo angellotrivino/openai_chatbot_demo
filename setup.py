@@ -21,7 +21,7 @@ setup(
     version='1.0',
     author='Angello Triviño Umaña',
     author_email='angello.trivinio@gmail.com',
-    description='ChatBot with using OpenAI API, also, using Telegram's BotFather',
+    description="ChatBot with using OpenAI API, also, using Telegram's BotFather",
     python_requires='>=3',
     license='MIT',
     url='',

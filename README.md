@@ -45,7 +45,7 @@ you could review the libraries and dependencies to use in *eviroment.yalm* file
 
 ```
 conda env create -f environment.yml
-activate openai_chatbot_demo
+activate openai-py39
 ```
 
 - If you are using pip
@@ -69,8 +69,16 @@ pip install -r requirements.txt
 
 ## What is the project?
 
-### Demo chatbot with OpenAI API using Telegram's BotFather
+### Demo chatbot with OpenAI API using Telegram's BotFather. 
+
+Example: https://t.me/openai_demo_chatbot 
+
+* System Context on Spanish: "Eres un asistente que da información de Anuncios Publicitarios.". You can change the Context System on the file ~/openai_chatbot_demo_package/utils/updates_telegram_openai.py on function-> def get_openai_response(prompt)
 
 1. Create bot from https://telegram.me/BotFather
 2. Launch script: python ~/scripts/openai_chatbot_demo.py
 3. Send message on bot create from Telegram's FatherBot
+4. Add entorn variables in file config on Ubuntu is on the file bashrc. Open File with command -> nano ~/.bashrc -> add:
+        export OPENAI_API_KEY="adkhfdnj48dmm#"
+        export TELEGRAM_API_KEY="adjdjd__d4$"
+Save file
